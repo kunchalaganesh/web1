@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'NDDarbarJewellersWebApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6D3D180A39704B87AAFC431D903078B9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A003F1EE763149A6AA0146F7655FFDE1 }}
           package: .
