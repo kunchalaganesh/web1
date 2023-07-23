@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "storage1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/jewellerywebapplications",
+      "type": "storage.azure",
+      "connectionId": "Azure:ConnectionString"
+    },
+    "apis1": {
+      "apiEndpoint": "https://jewellerywebapplicationwebapi.azure-api.net/",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/JewelleryWebApplicationWebApi/apis/JewelleryWebApplication",
+      "type": "apis.azure"
+    }
+  }
+}
