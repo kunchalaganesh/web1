@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "storage1": {
+      "type": "storage",
+      "connectionId": "Azure:ConnectionString"
+    },
+    "apis1": {
+      "type": "apis"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:JewelleryWebApplicationContextConnection",
+      "dynamicId": null
+    }
+  }
+}
